@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>Formularz</title>
+        <meta charset="utf-8"/> 
+    </head>
+    <body>
+        <form>
+         <p>Formularz rejestracji</p>
+            <label for="Login">Login</label><br>
+            <input type="text" id="Login" name="Login"><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="Email"><br>
+
+            <label for="Hasło">Hasło</label><br> 
+            <input type="password" id="Hasło" name="Hasło" minlength="5"><br>
+
+            <label for="Powtórz hasło">Powtórz hasło</label><br> 
+            <input type="password" id="Powtórz hasło" name="Powtórz hasło" minlength="5"><br>
+
+            <label for="date">Data urodzenia</label><br>
+            <input type="date" name="date" id="date"><br><br>
+
+            <label for="favcolor">Ulubiony kolor:</label>
+            <input type="color" name="favcolor" id="favcolor" value="#22DEEC"><br><br>
+       
+            Rozmiar koszulki <br>
+            <label for="s">S</label>
+            <input type="checkbox" name="s" id="s"><br>
+            <label for="m">M</label>
+            <input type="checkbox" name="m" id="m"><br>
+            <label for="l">L</label>
+            <input type="checkbox" name="l" id="l"><br>
+            <label for="xl">XL</label>
+            <input type="checkbox" name="xl" id="xl"><br><br>
+
+            Rozmiar koszulki <br>
+            <label for="s">S</label>
+            <input type="radio" name="rozmiar koszulki" id="s">
+            <label for="m">M</label>
+            <input type="radio" name="rozmiar koszulki" id="m">
+            <label for="l">L</label>
+            <input type="radio" name="rozmiar koszulki" id="l">
+            <label for="xl">XL</label>
+            <input type="radio" name="rozmiar koszulki" id="xl">
+            <br><br>
+            <label for="rozmiar koszulki">Rozmiar koszulki</label>
+                <select name="rozmiar koszulki" id="rozmiar koszulki">
+                    <option value="s">S</option>
+                    <option value="m">M</option>
+                    <option value="l">L</option>
+                    <option value="XL">XL</option>
+                </select><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
